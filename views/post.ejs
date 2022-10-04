@@ -63,6 +63,7 @@
                   </form>
   
                   <small class="col-2"> <%= post.likes %></small>
+                  
                   <form
                       action="/post/deletePost/<%= post.id %>?_method=DELETE"
                       method="POST"
