@@ -5,6 +5,14 @@ const CommentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  userName: {
+    type: String,
+    required: true,
+  },
+  userId: {
+    type: String,
+    required: true,
+  },
   likes: {
     type: Number,
     required: true,
